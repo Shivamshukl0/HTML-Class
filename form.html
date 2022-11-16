@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>my first Page</title>
+</head>
+
+<body>
+  <h1>HTML Form</h1>
+
+  <a href="index.html"> Home</a>
+  <a href="form.html"> Form</a>
+  <a href="aboutus.html"> Welcome</a>
+  <br />
+
+  <!--How to use Form tag-->
+  <form>
+    <label>First name* </label>
+    <input type="text" placeholder="First name" required />
+    <label>Last name</label>
+    <input type="text" value="Shukla" disabled />
+    <br />
+    <label>Email* </label>
+    <input type="email" />
+    <label>mobile No</label>
+    <input type="number" />
+    <br />
+    <label>DOB</label>
+    <input type="date" />
+    <label>Meeting date and time</label>
+    <input type="datetime" />
+    <input type="datetime-local" />
+    <br />
+    <label>Gender</label>
+    male<input type="radio" name="Gender" />
+
+    female<input type="radio" name="Gender" />
+    <br />
+    <label>Fav language</label>
+
+    html<input type="checkbox" name="favlang" /> JS<input type="checkbox" name="favlang" />
+    react<input type="checkbox" name="favlang" />
+
+    <label>select time</label><br />
+    <input type="time" />
+
+    <label>URL</label>
+    <input type="url" />
+    <br />
+
+    <label>Upload the File</label>
+    <input type="file" />
+
+    <label>Password</label>
+    <input type="password" />
+    <!--Class Date- 14/11/22  -->
+    <label>Pick A color</label>
+    <input type="color" /><br />
+    <label>Select a range</label>
+    <input type="range" min="1" max="10" /><br />
+    <input type="button" value="Submit" /><br />
+    <button type="submit">Submit Button</button><br />
+    <button type="simple">Simple Button</button><br />
+    <button type="reset">reset Button</button>
+
+
+    <h3>Select Some Option</h3>
+    <select name="Subject">
+      <option value="css">CSS</option>
+      <option value="html">HTML</option>
+      <option value="react">React</option>
+      <option value="js">JS</option>
+    </select><br />
+    <fieldset>
+      <legend>How was your experience</legend>
+      <inout type="radio" name="exp" value="1" />1
+      <inout type="radio" name="exp" value="2" />2
+      <inout type="radio" name="exp" value="3" />3
+      <inout type="radio" name="exp" value="4" />4
+      <inout type="radio" name="exp" value="5" />5
+    </fieldset>
+    <textarea cols="10" rows="10" name="msg"></textarea>
+  </form>
+</body>
+
+</html>
